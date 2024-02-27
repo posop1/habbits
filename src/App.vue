@@ -16,5 +16,9 @@ import Sidebar from '@/components/Layout/Sidebar.vue'
   display: flex;
   flex-direction: row;
   min-height: 100dvh;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 }
 </style>

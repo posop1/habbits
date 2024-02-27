@@ -60,6 +60,9 @@ const closeModal = () => {
 
   @media (max-width: 768px) {
     padding: 13px;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -98,6 +101,10 @@ const closeModal = () => {
   align-items: center;
   justify-content: center;
   gap: 25px;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 }
 
 .habbit {

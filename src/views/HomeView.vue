@@ -60,6 +60,11 @@ const closeModal = () => {
   display: flex;
   align-items: center;
   gap: 40px;
+  padding-right: 15px;
+
+  @media (max-width: 768px) {
+    font-size: 20px;
+  }
 }
 
 .add {
