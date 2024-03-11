@@ -52,6 +52,10 @@ const closeModal = () => {
   min-height: 100dvh;
   display: flex;
   flex-direction: column;
+
+  @media (max-width: 768px) {
+    padding: 15px;
+  }
 }
 
 .title {
@@ -64,6 +68,8 @@ const closeModal = () => {
 
   @media (max-width: 768px) {
     font-size: 20px;
+    justify-content: space-between;
+    padding: 0px;
   }
 }
 
