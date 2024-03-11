@@ -79,6 +79,7 @@ const closeModal = () => {
 }
 
 .without__habbits {
+  margin-top: 100px;
   height: 100%;
   display: flex;
   flex-direction: column;
